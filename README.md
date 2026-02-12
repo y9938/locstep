@@ -1,16 +1,9 @@
-# locstep
+# Locstep
 
-A new Flutter project.
+Indoor navigation from a graph: define nodes and edges, get step-by-step routes.
 
-## Getting Started
+## Adding languages
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Add `lib/l10n/app_<code>.arb` (see [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)).
+2. Copy keys from `app_en.arb`, translate.
+3. Run `flutter gen-l10n`.
