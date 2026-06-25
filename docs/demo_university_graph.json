@@ -1,0 +1,143 @@
+{
+  "graph": {
+    "id": "university_main_template",
+    "name": "University Main Building",
+    "createdAt": "2026-06-22T00:00:00.000",
+    "modifiedAt": "2026-06-22T00:00:01.123456",
+    "nodes": [
+      {
+        "id": "main_entrance",
+        "name": "Main Entrance",
+        "aliases": [
+          "entrance",
+          "entry",
+          "turnstiles"
+        ],
+        "neighbors": [
+          "holl_1y_floor"
+        ],
+        "imageUrls": [
+          "https://cloud.example.com/entrance.png"
+        ],
+        "tour3dUrls": [
+          "https://3d.exaple.com/?startscene=1&startactions=lookat(-50,2,100,0,0);"
+        ]
+      },
+      {
+        "id": "holl_1y_floor",
+        "name": "Main Hall 1st Floor",
+        "aliases": [
+          "lobby",
+          "hall"
+        ],
+        "neighbors": [
+          "main_entrance",
+          "kafe_1y_floor",
+          "stair_main_1y_floor"
+        ],
+        "imageUrls": [],
+        "tour3dUrls": [
+          "https://3d.exaple.com/?startscene=2&startactions=lookat(0,0,0,0,0);"
+        ]
+      },
+      {
+        "id": "kafe_1y_floor",
+        "name": "Canteen 1st Floor",
+        "aliases": [
+          "cafe",
+          "food",
+          "coffee",
+          "snacks"
+        ],
+        "neighbors": [
+          "holl_1y_floor"
+        ],
+        "imageUrls": [
+          "https://cloud.example.com/cafe.png"
+        ],
+        "tour3dUrls": [
+          "https://3d.exaple.com/?startscene=3&startactions=lookat(50,2,50,0,0);"
+        ]
+      },
+      {
+        "id": "stair_main_1y_floor",
+        "name": "Main Staircase 1st Floor",
+        "aliases": [
+          "stair",
+          "staircase",
+          "stairs",
+          "steps"
+        ],
+        "neighbors": [
+          "holl_1y_floor",
+          "stair_main_2y_floor"
+        ],
+        "imageUrls": [],
+        "tour3dUrls": [
+          "https://3d.exaple.com/?startscene=4&startactions=lookat(0,0,0,1,0);"
+        ]
+      },
+      {
+        "id": "stair_main_2y_floor",
+        "name": "Main Staircase 2nd Floor",
+        "aliases": [
+          "stair",
+          "staircase",
+          "stairs",
+          "steps"
+        ],
+        "neighbors": [
+          "stair_main_1y_floor",
+          "library_2y_floor"
+        ],
+        "imageUrls": [],
+        "tour3dUrls": [
+          "https://3d.exaple.com/?startscene=5&startactions=lookat(0,15,0,0,0);"
+        ]
+      },
+      {
+        "id": "library_2y_floor",
+        "name": "Library 2nd Floor",
+        "aliases": [
+          "auditorium",
+          "room",
+          "books",
+          "reading",
+          "quiet zone"
+        ],
+        "neighbors": [
+          "stair_main_2y_floor",
+          "auditorium_201"
+        ],
+        "imageUrls": [
+          "https://cloud.example.com/library.png"
+        ],
+        "tour3dUrls": [
+          "https://3d.exaple.com/?startscene=6&startactions=lookat(-100,15,30,0,0);"
+        ]
+      },
+      {
+        "id": "auditorium_201",
+        "name": "Lecture Hall 201",
+        "aliases": [
+          "auditorium",
+          "room",
+          "201",
+          "lecture",
+          "classroom"
+        ],
+        "neighbors": [
+          "library_2y_floor"
+        ],
+        "imageUrls": [
+          "https://cloud.example.com/room201.png",
+          "https://cloud.example.com/room201-2.png"
+        ],
+        "tour3dUrls": [
+          "https://3d.exaple.com/?startscene=7&startactions=lookat(120.50,15.20,50.10,0.5,0.2);"
+        ]
+      }
+    ]
+  },
+  "exportedAt": "2026-06-22T00:00:02.555555"
+}

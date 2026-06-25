@@ -1,6 +1,14 @@
-# Locstep
+<div align="center">
+  <img src="assets/images/logo.png" width="150" alt="Locstep Logo">
+  <h1>Locstep</h1>
+</div>
 
 Indoor navigation from a graph: define nodes and edges, get step-by-step routes.
+
+## Demo
+
+- [Download demo video](./docs/demo.mp4)
+- [Download example graph](./docs/demo_university_graph.json) for testing or as a reference template
 
 ## Adding languages
 
